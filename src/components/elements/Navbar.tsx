@@ -4,7 +4,7 @@ import NavItem from "../shared/NavItem.tsx";
 import BtnLink from "../shared/BtnLink.tsx";
 import useThemeStore from "../../store/ThemeStore.ts";
 
-const navItems = [
+export const navItems = [
     { href: "#", text: "Home" },
     { href: "#services", text: "Services" },
     { href: "#about-us", text: "About Us" },
